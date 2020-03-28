@@ -12,6 +12,7 @@ def opt(n,state = False):
 
 #print(opt(5, False))
 '''
+#测试github是否有用
 b="asd"
 c="123"
 def qsort(lyst):
