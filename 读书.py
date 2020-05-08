@@ -9,7 +9,10 @@ def opt(n,state = False):
         return opt(n + 1,False) + opt(n - 2,True) + opt(n - 4,True)
     else:
         return opt(n - 2,True) + opt(n - 4,True)
-
+a = set()
+a.add([1,2])
+if [1,2] in a:
+    print("123")
 #print(opt(5, False))
 '''
 #测试github是否有用
