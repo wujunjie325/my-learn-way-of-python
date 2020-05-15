@@ -27,6 +27,13 @@ def insertsoet(arr):
             if arr[i] > arr[j]:
                 arr[i],arr[j] = arr[j],arr[i]
                 break
+def marger(arr_1, arr_2):
+    index_1 = 0
+    index_2 = 0
+    while index_1 < len(arr_1) and index_2 < len(arr_2):
+        
+def margersort(arr):
+
 insertsoet(arr)
 #maopao_sort(arr)
 print(arr)

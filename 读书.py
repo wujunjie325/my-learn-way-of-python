@@ -9,7 +9,7 @@ def opt(n,state = False):
         return opt(n + 1,False) + opt(n - 2,True) + opt(n - 4,True)
     else:
         return opt(n - 2,True) + opt(n - 4,True)
-#print(opt(5, False))
+print(opt(5, False))
 '''
 #测试github是否有用
 b="asd"
