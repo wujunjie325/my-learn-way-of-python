@@ -2,11 +2,11 @@ class Queue(object):
     def __init__(self):
         self.items = []
 
-    def push(self, date):
+    def enqueue(self, date):
         self.items.append(date)
 
 
-    def pop(self):
+    def dequeue(self):
         return self.items.pop(0)
 
 
