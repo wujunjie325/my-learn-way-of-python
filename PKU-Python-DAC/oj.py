@@ -18,3 +18,5 @@ a = eval(input())
 
 print(radix_sort(a))
 '''
+a = (1,2,3)
+print(a[1])
